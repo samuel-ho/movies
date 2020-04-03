@@ -1,0 +1,14 @@
+.cards-row {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    flex-wrap: wrap;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 40px;
+    margin-right: 40px;
+}
