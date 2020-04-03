@@ -1,17 +1,17 @@
 .card {
-    width: 12rem;
-    margin-right: 5px;
-    margin-bottom: 20px;
+  width: 12rem;
+  margin-right: 5px;
+  margin-bottom: 20px;
 }
 
 .card-genre {
-    display: flex;
-    justify-content: flex-start;
-    font-size: small;
+  display: flex;
+  justify-content: flex-start;
+  font-size: small;
 }
 
 .card-title {
-    display: flex;
-    justify-content: flex-start;
-    font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: bold;
 }

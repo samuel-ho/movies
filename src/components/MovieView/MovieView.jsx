@@ -1,10 +1,8 @@
-import React from 'react';
-import Movies from '../Movies/Movies';
+import React from "react";
+import Movies from "../Movies/Movies";
 
 const MovieView = (props) => {
-    return (
-        <Movies movies={props.movies}/> 
-    )
-}
+  return <Movies movies={props.movies} />;
+};
 
 export default MovieView;
