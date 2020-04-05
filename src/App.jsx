@@ -9,10 +9,10 @@ const App = () => {
 
   useEffect(() => {
     updateMovies(mockData);
-  });
+  }, []);
 
   return (
-    <div className="App">
+    <div className="app">
       <Navigation />
       <MovieView movies={movies} />
     </div>

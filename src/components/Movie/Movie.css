@@ -4,6 +4,11 @@
   margin-bottom: 20px;
 }
 
+.card-img-top {
+  height: 250px;
+  width: 375px;
+}
+
 .card-genre {
   display: flex;
   justify-content: flex-start;

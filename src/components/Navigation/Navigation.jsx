@@ -2,16 +2,24 @@ import React from "react";
 import "./Navigation.css";
 
 const Navigation = () => {
+  const tabNames = [
+    "All",
+    "Movies",
+    "TV Shows",
+    "Games & Apps",
+    "Blog",
+    "Other",
+  ];
+
   return (
     <>
-      <h1 className="header"> Search Results </h1>
-      <div className="nav-Container">
-        <div className="nav-Bar">
-          <span className="nav-Bar"> All </span>
-          <span className="nav-Bar"> Movies </span>
-          <span className="nav-Bar"> TV Shows </span>
-          <span className="nav-Bar"> Games & Apps </span>
-        </div>
+      <div className="parent">
+        <h1 className="header"> Search Results </h1>
+      </div>
+      <div className="nav-container">
+        {tabNames.map((tabName) => {
+          return <span className="nav-bar"> {tabName} </span>;
+        })}
       </div>
     </>
   );
