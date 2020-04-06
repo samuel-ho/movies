@@ -1,32 +1,7 @@
-.nav-bar {
-  margin-left: 1rem;
-  padding-bottom: 20px;
-}
-
 .nav-container {
   display: flex;
   margin-right: 40px;
   justify-content: flex-end;
-  margin-left: 1rem;
-  padding-bottom: 20px;
-}
-
-.parent {
-  word-spacing: 50px;
-}
-
-.header {
-  display: flex;
-  justify-content: flex-start;
-  padding-top: 40px;
-  padding-left: 40px;
-  width: min-intrinsic;
-  width: -webkit-min-content;
-  width: -moz-min-content;
-  width: min-content;
-  display: table-caption;
-  display: -ms-grid;
-  -ms-grid-columns: min-content;
-  font-weight: bold;
-  font-size: 40px;
+  margin-left: 0.5rem;
+  padding-bottom: 30px;
 }

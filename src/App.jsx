@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
-import MovieView from "./components/MovieView/MovieView";
 import Navigation from "./components/Navigation/Navigation";
+import FilterContainer from "./components/Filter/FilterContainer/Filter";
+import MovieView from "./components/MovieView/MovieView";
 import mockData from "./assets/movies.json";
 import "./App.css";
 
@@ -12,10 +13,11 @@ const App = () => {
   }, []);
 
   return (
-    <div className="app">
+    <>
       <Navigation />
+      <FilterContainer />
       <MovieView movies={movies} />
-    </div>
+    </>
   );
 };
 

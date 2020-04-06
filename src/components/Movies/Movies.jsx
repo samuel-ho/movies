@@ -5,15 +5,9 @@ import "./Movies.css";
 const Movies = ({ movies }) => {
   return (
     <div className="cards-container">
-      <div className="cards-row">
-        {movies.map((movie) => {
-          return (
-            <div className="card">
-              <Movie imgsrc={movie.url} movieTitle={movie.movie_name} />
-            </div>
-          );
-        })}
-      </div>
+      {movies.map((movie) => {
+        return <Movie imgsrc={movie.url} movieTitle={movie.movie_name} />;
+      })}
     </div>
   );
 };

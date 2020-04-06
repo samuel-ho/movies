@@ -1,0 +1,7 @@
+.filter-tabs {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  height: 35px;
+}

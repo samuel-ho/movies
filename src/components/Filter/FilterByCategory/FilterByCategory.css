@@ -1,0 +1,7 @@
+.dropdown-tabs {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  height: 35px;
+}

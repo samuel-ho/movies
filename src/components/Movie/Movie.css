@@ -1,7 +1,7 @@
 .card {
   width: 12rem;
-  margin-right: 5px;
-  margin-bottom: 20px;
+  align-content: center;
+  margin-bottom: 60px;
 }
 
 .card-img-top {
@@ -13,10 +13,18 @@
   display: flex;
   justify-content: flex-start;
   font-size: small;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 5px;
 }
 
 .card-title {
   display: flex;
   justify-content: flex-start;
   font-weight: bold;
+  height: 60px;
+  margin-left: 5px;
+}
+
+h4 {
 }
