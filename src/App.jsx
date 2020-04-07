@@ -8,6 +8,7 @@ import "./App.css";
 const App = () => {
   const [movies, updateMovies] = useState([]);
 
+// would add async await 
   useEffect(() => {
     fetch(mockData).then((data) => {
       updateMovies(mockData);

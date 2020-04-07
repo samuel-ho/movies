@@ -3,11 +3,12 @@ import Dropdown from "../Dropdown/Dropdown";
 import "./FilterByCategory.css";
 
 const FilterByCategory = () => {
+  const dropdownTitles = ["Release Year", "Genre", "Rating"];
   return (
     <div className="dropdown-tabs">
-      <Dropdown> Release Year </Dropdown>
-      <Dropdown> Genre </Dropdown>
-      <Dropdown> Rating </Dropdown>
+      {dropdownTitles.map((title, index) => {
+        return <Dropdown key={index}> {title} </Dropdown>;
+      })}
     </div>
   );
 };

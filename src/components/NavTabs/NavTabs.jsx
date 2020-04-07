@@ -11,13 +11,14 @@ const NavTabs = () => {
     "Other",
   ];
 
-  // Refactor: Would add redirects for the nav-tabs using React Router when onclick events occur.
+  // Refactor: Would add redirects for the nav-tabs using React Router when 
+  // onclick events occur.
 
   return (
     <div className="nav-container">
       {tabNames.map((tabName, index) => {
         return (
-          <span key={index} className="nav-tabs">
+          <span className="nav-tabs" key={index}>
             {" "}
             {tabName}{" "}
           </span>

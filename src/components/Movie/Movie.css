@@ -26,5 +26,5 @@
   margin-left: 5px;
 }
 
-h4 {
-}
+/* refactor margin-left: 5px using line height instead which would be better for 
+aligining text */

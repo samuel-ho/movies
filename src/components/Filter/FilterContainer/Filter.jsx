@@ -4,8 +4,10 @@ import FilterByPopularity from "../FilterByPopularity/FilterByPopularity";
 import FilterByCategory from "../FilterByCategory/FilterByCategory";
 import "./Filter.css";
 
-// Refactor: use one div around filterByCategory component and filterbuttons and set that className to display: flex
-// and use space-between
+// Refactor: use one div around filterByCategory component and filterbuttons and set that
+// className to display: flex and use justify-content: space-between.
+// Refactor two Filter Buttons by placing them in a ButtonsContainer component instead and
+// use map to create two filter button elements
 
 const FilterContainer = ({ movies }) => {
   return (
