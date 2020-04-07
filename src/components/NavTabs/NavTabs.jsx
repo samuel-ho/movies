@@ -15,8 +15,13 @@ const NavTabs = () => {
 
   return (
     <div className="nav-container">
-      {tabNames.map((tabName) => {
-        return <span className="nav-tabs"> {tabName} </span>;
+      {tabNames.map((tabName, index) => {
+        return (
+          <span key={index} className="nav-tabs">
+            {" "}
+            {tabName}{" "}
+          </span>
+        );
       })}
       <i className="material-icons"> view_module </i>
       <i className="material-icons"> view_list </i>

@@ -3,7 +3,9 @@ import "./Header.css";
 
 const Header = () => {
   return (
-      <h1 className="header-text"> Search Results </h1>
+    <div className="header-text">
+      <h1> Search Results </h1>
+    </div>
   );
 };
 

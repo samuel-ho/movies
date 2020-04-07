@@ -5,3 +5,11 @@
   margin-left: 0.5rem;
   padding-bottom: 30px;
 }
+
+@media screen and (max-width: 503px) {
+  .nav-container {
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+  }
+}

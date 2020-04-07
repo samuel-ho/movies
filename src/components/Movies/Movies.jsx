@@ -5,8 +5,10 @@ import "./Movies.css";
 const Movies = ({ movies }) => {
   return (
     <div className="cards-container">
-      {movies.map((movie) => {
-        return <Movie imgsrc={movie.url} movieTitle={movie.movie_name} />;
+      {movies.map((movie, index) => {
+        return (
+          <Movie key={index} imgsrc={movie.url} movieTitle={movie.movie_name} />
+        );
       })}
     </div>
   );

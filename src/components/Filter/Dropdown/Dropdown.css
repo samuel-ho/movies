@@ -1,4 +1,11 @@
 .dropdown-title {
   font-weight: bold;
   margin-left: 15px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 503px) {
+  .dropdown-title {
+    margin: 0;
+  }
 }

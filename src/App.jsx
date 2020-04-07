@@ -9,7 +9,9 @@ const App = () => {
   const [movies, updateMovies] = useState([]);
 
   useEffect(() => {
-    updateMovies(mockData);
+    fetch(mockData).then((data) => {
+      updateMovies(mockData);
+    });
   }, []);
 
   return (

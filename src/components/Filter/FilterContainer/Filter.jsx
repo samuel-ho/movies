@@ -14,8 +14,8 @@ const FilterContainer = ({ movies }) => {
       <div className="filter-category-container">
         <FilterByCategory />
         <div className="filter-buttons-container">
-          <FilterButton>Clear Filters</FilterButton>
-          <FilterButton>Apply Filters</FilterButton>
+          <FilterButton>Clear</FilterButton>
+          <FilterButton>Apply</FilterButton>
         </div>
       </div>
     </>
